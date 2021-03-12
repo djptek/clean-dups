@@ -1,0 +1,4 @@
+# create list [md5][Dropbox|Backups][folder/filename] for Dropbox
+# add [md5][Dropbox|Backups][folder/filename] for Backups
+# traverse Md5s and replace Backups duplicates with reference to Dropbox file 
+# ?? or do that real-time (<< mem)
