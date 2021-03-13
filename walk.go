@@ -1,7 +1,7 @@
 package main
 
 import (
-    "crypto/md5"
+    "crypto/sha256"
     "fmt"
     "io/ioutil"
     "log"
@@ -33,7 +33,7 @@ func main() {
             if err != nil {
                 log.Fatal(err)
             }
-            sum := md5.Sum(data)
+            sum := sha256.Sum256(data)
             fmt.Printf("%s\t%x\n", file, sum)
         }
     }
